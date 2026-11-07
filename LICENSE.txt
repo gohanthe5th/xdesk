@@ -4,8 +4,8 @@ XDesk is an independent distribution based on xemu and QEMU, with dashboard code
 
 The Windows release includes XDesk-source.zip with the corresponding modified source and build instructions. See DASHBOARD.md and licenses/xbased.NOTICE.txt in that archive for attribution, and licenses/Play.OFL.txt for the bundled Play font.
 
-For XDesk 1.0.4, the corresponding source is available in the Windows ZIP and as XDesk-v1.0.4-source.zip on GitHub.
-https://github.com/gohanthe5th/xdesk/releases/tag/v1.0.4
+For XDesk 1.0.6, the corresponding source is available in the Windows ZIP and as XDesk-v1.0.6-source.zip on GitHub.
+https://github.com/gohanthe5th/xdesk/releases/tag/v1.0.6
 
 Upstream projects:
 https://github.com/xemu-project/xemu
