@@ -2,7 +2,7 @@
 
 XDesk is an independent Windows app for original Xbox emulation. It combines the [xemu](https://github.com/xemu-project/xemu) emulator with a console dashboard adapted from [xbased](https://github.com/crazyriddler/xbased).
 
-[Download XDesk 1.0.3 for Windows x64](https://github.com/gohanthe5th/xdesk/releases/tag/v1.0.3)
+[Download XDesk 1.0.4 for Windows x64](https://github.com/gohanthe5th/xdesk/releases/tag/v1.0.4)
 
 ## Getting started
 
@@ -12,9 +12,15 @@ XDesk is an independent Windows app for original Xbox emulation. It combines the
 
 ## Game covers
 
-XDesk saves downloaded covers in `covers` inside its settings folder. If a game has no artwork, open its details and select **Choose cover image** below **Play**. XDesk copies the image into `covers/custom`, so the original can be moved afterward.
+XDesk matches cover art using the disc title, region, and filename. XDesk saves downloaded covers in `covers` inside its settings folder. If a game has no artwork, open its details and select **Choose cover image** below **Play**. XDesk copies the image into `covers/custom`, so the original can be moved afterward.
 
-Version 1.0.3 also includes the redesigned game grid and game details, the built-in cartoon Xbox background, and the DualSense trigger and diagnostic controls.
+XDesk includes the redesigned game grid and game details, the built-in cartoon Xbox background, and the DualSense trigger and diagnostic controls.
+
+## Updates
+
+Open **Settings → About XDesk → Check for updates** to check the latest stable GitHub release. If a newer build is available, **Download Windows update** opens the ZIP in your browser. Close XDesk before replacing the executable.
+
+See [CHANGELOG.md](CHANGELOG.md) for release history.
 
 ## Source and licenses
 
