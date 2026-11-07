@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Download XDesk, an original Xbox emulator for Windows with a console dashboard and automatic cover art.">
+<meta name="color-scheme" content="dark">
+<title>XDesk · Original Xbox emulation for Windows</title>
+<style>
+:root{color-scheme:dark;--bg:#0b100e;--surface:#121d17;--line:#2a4031;--green:#aff67b;--ink:#f1faee;--muted:#b5c5ba}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.6 system-ui,sans-serif}a{color:var(--green)}a:focus-visible{outline:3px solid white;outline-offset:5px}header,main,footer{width:min(1120px,calc(100% - 40px));margin:auto}header,footer{display:flex;justify-content:space-between;align-items:center;gap:18px;padding:23px 0}header{border-bottom:1px solid var(--line)}.brand{font-size:1.4rem;font-weight:800;color:var(--ink);text-decoration:none}.brand b{color:var(--green)}nav{display:flex;gap:20px}nav a{text-decoration:none;color:var(--muted)}.hero{display:grid;grid-template-columns:1fr .85fr;align-items:center;gap:40px;padding:72px 0 58px}.label{color:var(--green);font-size:.8rem;letter-spacing:.15em;text-transform:uppercase;font-weight:800}h1,h2,h3,p{margin:0}h1{font-size:clamp(3.7rem,10vw,7rem);line-height:.95;letter-spacing:-.075em;margin:15px 0 24px}h2{font-size:clamp(1.65rem,4vw,2.35rem);line-height:1.15;margin-bottom:16px}h3{font-size:1.1rem;margin-bottom:7px}.lead{font-size:1.22rem;max-width:34rem;color:var(--muted)}.actions{display:flex;flex-wrap:wrap;gap:14px;align-items:center;margin:27px 0 10px}.button{display:inline-block;color:#0f1c0b;background:var(--green);border-radius:9px;padding:11px 19px;font-weight:800;text-decoration:none}.button:hover{background:#ccffa9}.meta{font-size:.88rem;color:var(--muted)}.art{position:relative;min-height:310px;display:grid;place-items:center;overflow:hidden;border:1px solid var(--line);border-radius:18px;background:radial-gradient(ellipse at center,#254a21 0%,#101d16 58%,#0b1410 100%)}.art svg{width:95%;max-width:430px;display:block}.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.card,.setup{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:20px}.card p,.setup p,.setup li,footer{color:var(--muted)}.card span{color:var(--green);font-weight:800;font-size:.8rem;letter-spacing:.08em}.setup{margin:25px 0;padding:27px}.setup ol{padding-left:1.25rem}.setup li+li{margin-top:8px}kbd{background:#26362b;border-radius:4px;padding:2px 6px;color:var(--ink)}footer{border-top:1px solid var(--line);font-size:.88rem;flex-wrap:wrap}footer p{max-width:52rem}.hash{overflow-wrap:anywhere;font-size:.8rem}details{margin-top:12px}summary{cursor:pointer}@media(max-width:720px){.hero{grid-template-columns:1fr;padding:45px 0 28px;gap:24px}.cards{grid-template-columns:1fr}.art{min-height:220px}.art svg{max-width:300px}nav{gap:13px}}
+</style>
+<header><a class="brand" href="./"><b>X</b>Desk</a><nav aria-label="Project"><a href="#setup">Setup</a><a href="https://github.com/gohanthe5th/xdesk">GitHub</a></nav></header>
+<main>
+<section class="hero" aria-labelledby="title">
+<div><p class="label">Original Xbox emulator · Windows x64</p><h1 id="title">XDesk</h1>
+<p class="lead">Open your Xbox game library from a console-style dashboard, play, and jump back to your collection whenever you want.</p>
+<div class="actions"><a class="button" href="https://github.com/gohanthe5th/xdesk/releases/download/v1.0.0/XDesk-Windows-x64.zip">Download for Windows ↓</a><a href="https://github.com/gohanthe5th/xdesk/releases/tag/v1.0.0">Release &amp; source</a></div>
+<p class="meta">Portable ZIP · 60.3 MiB · Includes source and licenses</p></div>
+<div class="art" aria-hidden="true"><svg viewBox="0 0 440 315" fill="none"><defs><radialGradient id="orb"><stop stop-color="#d5ff9c"/><stop offset=".44" stop-color="#76bf35"/><stop offset="1" stop-color="#193f16"/></radialGradient></defs><circle cx="220" cy="155" r="79" fill="url(#orb)"/><g stroke="#bbf479" stroke-opacity=".65" stroke-width="1.5"><ellipse cx="220" cy="155" rx="167" ry="48" transform="rotate(-18 220 155)"/><ellipse cx="220" cy="155" rx="153" ry="49" transform="rotate(30 220 155)"/><ellipse cx="220" cy="155" rx="132" ry="47" transform="rotate(77 220 155)"/></g><path d="m194 125 52 60m0-60-52 60" stroke="#f5ffe9" stroke-width="10" stroke-linecap="round"/><circle cx="347" cy="82" r="4" fill="#e2ffc0"/><circle cx="83" cy="187" r="3" fill="#d5ffad"/></svg></div>
+</section>
+<section class="cards" aria-label="Features">
+<article class="card"><span>01 / LIBRARY</span><h3>Your games in one place</h3><p>Import Xbox ISO and XISO files or scan a whole folder.</p></article>
+<article class="card"><span>02 / ARTWORK</span><h3>Automatic cover art</h3><p>XDesk downloads matching covers in the background. Your local images take priority.</p></article>
+<article class="card"><span>03 / PLAY</span><h3>Dashboard on demand</h3><p>Press <kbd>F1</kbd> or use the Dashboard button to return to your library during play.</p></article>
+</section>
+<section class="setup" id="setup"><h2>Get started</h2><ol><li>Extract the Windows ZIP and open <strong>XDesk.exe</strong>.</li><li>Use System settings to select your Xbox firmware and virtual hard disk.</li><li>Open <strong>Games</strong> to add an ISO, XISO, or game folder.</li></ol><p>Firmware, game images, and virtual disks are supplied separately. XDesk has no built-in app updater.</p>
+<details><summary>Verify the Windows ZIP</summary><p class="hash">SHA-256 <code>c145052a9459b11beb5c27c810c6b8deb95d49610f11ebe8cce017d7086f50b3</code></p></details></section>
+</main>
+<footer><p>Independent project built on <a href="https://github.com/xemu-project/xemu">xemu</a>, with dashboard artwork and design adapted from <a href="https://github.com/crazyriddler/xbased">xbased</a>. Downloaded covers use the <a href="https://github.com/libretro-thumbnails/Microsoft_-_Xbox">Libretro Xbox catalog</a>.</p><a href="https://github.com/gohanthe5th/xdesk/releases/tag/v1.0.0">Downloads</a></footer>
+</html>
+
+
