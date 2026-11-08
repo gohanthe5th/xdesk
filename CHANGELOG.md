@@ -1,5 +1,13 @@
 # Changelog
 
+## v1.0.13
+
+- Fixed stale OpenGL textures when textures or palettes share a VRAM page.
+- Corrected Vulkan draw-batch tracking to avoid unnecessary GPU waits.
+- Fall back to SDL presentation when Windows DXGI cannot retrieve or unlock a frame.
+- Handled empty Xbox audio stream descriptors without aborting emulation.
+- The OpenGL test build ran the Woodward Camp demo in Dave Mirra Freestyle BMX 2. The intermittent skybox flicker remains unconfirmed.
+
 ## v1.0.12
 
 - Fixed a snapshot restore crash that could wake the Xbox audio worker before the saved audio state was loaded. Verified by loading an existing Dave Mirra Freestyle BMX 2 snapshot from the in-app list.
