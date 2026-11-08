@@ -1,27 +1,63 @@
 # Changelog
 
+## v1.0.12
+
+- Fixed a snapshot restore crash that could wake the Xbox audio worker before the saved audio state was loaded. Verified by loading an existing Dave Mirra Freestyle BMX 2 snapshot from the in-app list.
+
+## v1.0.11
+
+- Fixed a graphics queue lock when saving snapshots while the Xbox is paused. Corrected snapshot thumbnail rendering and added checks for invalid snapshot metadata.
+- On Windows, Vulkan selects an adapter that can share frames with the OpenGL display GPU. Fixed DirectX framebuffer sharing and added a fallback to SDL presentation when the adapters differ.
+
+## v1.0.10
+
+- Simplified the dashboard navigation, aligned the Games toolbar, and grouped game actions under Play, Library, and Artwork.
+- Improved spacing and title previews in cover search.
+
 ## v1.0.9
 
 - Added cover search and preview by title, region, and edition.
-- Added profile ZIP backup and restore for the library, covers, controller settings, and display preferences.
-- Added Continue playing, Favorites, named collections, and the first-run setup wizard since the previous GitHub release.
+- Added profile ZIP backup and restore for the game library, covers, controller settings, and display preferences.
+
+## v1.0.8
+
+- Added Continue playing to reopen the last game launched from the library.
+
+## v1.0.7
+
+- Added Favorites and named game collections.
+- Added a first-run setup wizard for Xbox firmware, virtual storage, and the games folder.
 
 ## v1.0.6
 
-- Added a clock toggle and 12-hour (AM/PM) or 24-hour format for the Games and game details screens.
+- Added a dashboard clock toggle and 12-hour or 24-hour time formats for the Games and game details screens.
+
+## v1.0.5
+
 - Added a Vulkan graphics card selector with an Automatic option. The OpenGL panel shows the active GPU and links to Windows graphics settings.
 
 ## v1.0.4
 
-- Added a manual update check under **Settings → About XDesk**. It checks this repository’s latest stable release and opens the Windows ZIP in your browser when a newer build is available.
-- Improved automatic and manual cover matching. XDesk now uses the disc title, region, and filename to find art in the same Libretro Xbox catalog used by xbased.
+- Added a manual update check under **Settings → About XDesk** that opens the Windows ZIP for a newer stable release.
+- Improved automatic and manual cover matching using disc title, region, and filename with the Libretro Xbox artwork catalog.
 
 ## v1.0.3
 
-- Added the cover grid, redesigned game details, and built-in cartoon Xbox dashboard background.
-- Saved downloaded covers in `covers` and copied user-selected artwork to `covers/custom`. Games without artwork show **Choose cover image** below **Play**.
+- Added a cover grid, redesigned game details, and a built-in cartoon Xbox dashboard background.
+- Saved downloaded artwork under `covers` and copied user-selected artwork to `covers/custom`. Games without artwork show **Choose cover image** below **Play**.
 
 ## v1.0.2
 
 - Matched the Settings submenu to the dashboard and corrected the Windows title bar and file version.
-- Added independent DualSense trigger effects and separate toggles for gameplay effects and diagnostics.
+- Added independent DualSense L2 and R2 trigger effects, plus separate toggles for gameplay effects and diagnostics.
+
+## v1.0.1
+
+- Added custom home backgrounds using PNG, JPEG, or BMP images, and applied XDesk branding to the controller diagram and Windows icon.
+- Added DualSense input monitoring and tests for vibration, lighting, and adaptive triggers.
+- Added Analog, Short pull, and Digital Xbox trigger input modes.
+- Hid the on-screen Dashboard button during gameplay. F1 reopens the dashboard.
+
+## v1.0.0
+
+- Initial Windows release with automatic cover downloads, a dashboard accessible by F1 or an on-screen button, and separate XDesk settings.
