@@ -1,5 +1,11 @@
 # Changelog
 
+## v1.0.9
+
+- Added cover search and preview by title, region, and edition.
+- Added profile ZIP backup and restore for the library, covers, controller settings, and display preferences.
+- Added Continue playing, Favorites, named collections, and the first-run setup wizard since the previous GitHub release.
+
 ## v1.0.6
 
 - Added a clock toggle and 12-hour (AM/PM) or 24-hour format for the Games and game details screens.
