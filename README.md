@@ -2,7 +2,7 @@
 
 XDesk is an independent Windows app for original Xbox emulation. It combines the [xemu](https://github.com/xemu-project/xemu) emulator with a console dashboard adapted from [xbased](https://github.com/crazyriddler/xbased).
 
-[Download XDesk 1.0.6 for Windows x64](https://github.com/gohanthe5th/xdesk/releases/tag/v1.0.6)
+[Download XDesk 1.0.9 for Windows x64](https://github.com/gohanthe5th/xdesk/releases/tag/v1.0.9)
 
 ## Getting started
 
@@ -20,6 +20,13 @@ XDesk includes the redesigned game grid and game details, the built-in cartoon X
 
 - Under **Settings → Display**, select **Vulkan** to choose a graphics card or leave it on **Automatic**. Restart XDesk to apply the choice. With OpenGL, use the Windows graphics settings shortcut.
 - Under **Settings → Display → Interface**, turn the dashboard clock on or off and choose 12-hour (AM/PM) or 24-hour time.
+
+## Library and backup
+
+- Add games to **Favorites** or named collections from the game details screen. **Continue playing** opens the last game you launched from the library.
+- Use **Search covers** in game details to preview and apply another edition’s cover.
+- Use **Settings → General → Backup and restore** to save your library, artwork stored in XDesk, controller settings, and display preferences. Restart XDesk to apply a queued restore. Keep your game images separately.
+- The first-run wizard guides you through firmware, virtual storage, and the games folder. Reopen it from **Settings → General → Open setup wizard**.
 
 ## Updates
 
