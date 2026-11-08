@@ -2,7 +2,7 @@
 
 XDesk is an independent Windows app for original Xbox emulation. It combines the [xemu](https://github.com/xemu-project/xemu) emulator with a console dashboard adapted from [xbased](https://github.com/crazyriddler/xbased).
 
-[Download XDesk 1.0.9 for Windows x64](https://github.com/gohanthe5th/xdesk/releases/tag/v1.0.9)
+[Download XDesk 1.0.12 for Windows x64](https://github.com/gohanthe5th/xdesk/releases/tag/v1.0.12)
 
 ## Getting started
 
