@@ -1,5 +1,9 @@
 # Changelog
 
+## v1.0.15
+
+- Removed the hidden xboxrecomp panel from About and removed its launcher and bundled tools from the Windows download.
+
 ## v1.0.14
 
 - Redesigned Home and Settings with a green orb, curved wireframe backdrop and beveled menu rows inspired by the original Xbox dashboard.
