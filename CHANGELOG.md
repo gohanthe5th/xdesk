@@ -1,5 +1,11 @@
 # Changelog
 
+## v2.0.1
+
+- Replaced the Home orb and wordmark with transparent pixel-art XDesk artwork.
+- Rebranded About, dialog text, and Windows file details to XDesk.
+- Migrates existing portable settings to `xdesk.ini` when the new file is absent.
+
 ## v2.0.0
 
 - Rebuilt XDesk on xbased 1.0.90, including its dashboard, mods, trainers, widescreen database, and per-game settings.
