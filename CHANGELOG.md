@@ -1,5 +1,11 @@
 # Changelog
 
+## v2.0.2
+
+- Added cover search by title, region, and edition with an artwork preview and persistent manual cover selection.
+- Fixed cover catalog loading for GitHub's whitespace-formatted JSON.
+- Documented the changes XDesk makes to xbased 1.0.90.
+
 ## v2.0.1
 
 - Replaced the Home orb and wordmark with transparent pixel-art XDesk artwork.
