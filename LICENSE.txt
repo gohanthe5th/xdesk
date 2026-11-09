@@ -1,11 +1,11 @@
-XDesk v2.0.0 license and source notice
+XDesk v2.0.1 license and source notice
 
-XDesk v2.0.0 is based on xbased 1.0.90 by crazyriddler, which is based on hakuX. This work is distributed under the GNU General Public License, version 3 or later. Third-party components retain their individual licenses and copyright notices.
+XDesk v2.0.1 is based on xbased 1.0.90 by crazyriddler, which is based on hakuX. This work is distributed under the GNU General Public License, version 3 or later. Third-party components retain their individual licenses and copyright notices.
 
-The release includes the full GPL text in COPYING, xbased's original attribution in LICENSE, and third-party notices under licenses/. The corresponding source and pinned library sources are in XDesk-v2.0.0-source.zip, also included in the portable Windows ZIP.
+The release includes the full GPL text in COPYING, xbased's original attribution in LICENSE, and third-party notices under licenses/. The corresponding source and pinned library sources are in XDesk-v2.0.1-source.zip, also included in the portable Windows ZIP.
 
 Release and corresponding source
-https://github.com/gohanthe5th/xdesk/releases/tag/v2.0.0
+https://github.com/gohanthe5th/xdesk/releases/tag/v2.0.1
 
 Upstream notices and GPL text
 https://github.com/crazyriddler/xbased/blob/v1.0.90/LICENSE
