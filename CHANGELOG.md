@@ -1,5 +1,14 @@
 # Changelog
 
+## v1.0.14
+
+- Redesigned Home and Settings with a green orb, curved wireframe backdrop and beveled menu rows inspired by the original Xbox dashboard.
+- Added global FXAA and CRT presets and per-game overrides for aspect ratio, filtering, FXAA and CRT.
+- Added per-game IPS selection and support for a user-supplied OgXHD widescreen database. Patches apply to a separate ISO copy.
+- Added startup update offers and Windows installation with ZIP digest verification and an executable backup.
+- Fixed valid final-page texture ranges in OpenGL and Vulkan.
+- Implemented Xbox Pentium III timestamp-register reads and writes and verified them with a guest ROM.
+
 ## v1.0.13
 
 - Fixed stale OpenGL textures when textures or palettes share a VRAM page.
