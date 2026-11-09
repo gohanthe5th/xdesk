@@ -1,8 +1,10 @@
 # XDesk
 
+![Pixel-art XDesk logo](https://github.com/gohanthe5th/xdesk/releases/download/v2.0.1/XDesk-v2.0.1-Menu-Art.png)
+
 XDesk is a portable original Xbox emulator for Windows x64, based on [xbased 1.0.90](https://github.com/crazyriddler/xbased/tree/v1.0.90).
 
-[Download XDesk v2.0.0](https://github.com/gohanthe5th/xdesk/releases/tag/v2.0.0)
+[Download XDesk v2.0.1](https://github.com/gohanthe5th/xdesk/releases/tag/v2.0.1)
 
 ## Getting started
 
@@ -16,7 +18,7 @@ XDesk is a portable original Xbox emulator for Windows x64, based on [xbased 1.0
 - **Controls → Triggers** has independent left and right software response and DualSense adaptive motor effects. Games can override these settings.
 - **Memory** imports compatible in-game saves from a legacy XDesk/xemu TOML and HDD image.
 
-The portable build keeps settings and saves beside the executable. Install v2.0.0 manually from the full ZIP. Legacy snapshots and settings belong to the previous build, which is available in [v1.0.15](https://github.com/gohanthe5th/xdesk/releases/tag/v1.0.15).
+The portable build keeps settings and saves beside the executable. Install v2.0.1 manually from the full ZIP. Legacy snapshots and settings belong to the previous build, which is available in [v1.0.15](https://github.com/gohanthe5th/xdesk/releases/tag/v1.0.15).
 
 ## Source and license
 
