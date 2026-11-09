@@ -2,7 +2,7 @@
 
 XDesk is an independent Windows app for original Xbox emulation. It combines the [xemu](https://github.com/xemu-project/xemu) emulator with a console dashboard adapted from [xbased](https://github.com/crazyriddler/xbased).
 
-[Download XDesk 1.0.13 for Windows x64](https://github.com/gohanthe5th/xdesk/releases/tag/v1.0.13)
+[Download XDesk 1.0.14 for Windows x64](https://github.com/gohanthe5th/xdesk/releases/tag/v1.0.14)
 
 ## Getting started
 
@@ -28,9 +28,14 @@ XDesk includes the redesigned game grid and game details, the built-in cartoon X
 - Use **Settings → General → Backup and restore** to save your library, artwork stored in XDesk, controller settings, and display preferences. Restart XDesk to apply a queued restore. Keep your game images separately.
 - The first-run wizard guides you through firmware, virtual storage, and the games folder. Reopen it from **Settings → General → Open setup wizard**.
 
+## Picture and mods
+
+- Open **Settings → Picture** for global FXAA and CRT presets. Open a game's **Picture** panel to override aspect ratio, filtering, FXAA and CRT.
+- Place IPS files for a matching disc revision in `mods/<TITLE ID>.<VERSION>/` or `mods/<TITLE ID>/` in the XDesk settings folder. Open **Mods & patches** to build a separate patched ISO. Place an OgXHD database at `mods/widescreen.dat` to enable matching widescreen patterns.
+
 ## Updates
 
-Open **Settings → About XDesk → Check for updates** to check the latest stable GitHub release. If a newer build is available, **Download Windows update** opens the ZIP in your browser. Close XDesk before replacing the executable.
+Open **Settings → About XDesk → Check for updates** to check the latest stable GitHub release. If a newer build is available, **Download Windows update** opens the ZIP in your browser. To check automatically at startup, use **Settings → Display → Interface**. Choose **Install update** to verify and replace the Windows executable, then reopen XDesk. The previous executable is saved as `XDesk-previous.exe`.
 
 See [CHANGELOG.md](CHANGELOG.md) for release history.
 
