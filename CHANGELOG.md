@@ -1,5 +1,12 @@
 # Changelog
 
+## v2.0.0
+
+- Rebuilt XDesk on xbased 1.0.90, including its dashboard, mods, trainers, widescreen database, and per-game settings.
+- Added a custom dashboard wallpaper picker, the bundled cartoon Xbox wallpaper, and clock visibility and format options.
+- Added independent software trigger response and DualSense adaptive effects for each side, with per-game overrides.
+- Packaged a fresh portable install. Compatible in-game saves can be imported through Memory. Legacy settings and snapshots use the previous build.
+
 ## v1.0.15
 
 - Removed the hidden xboxrecomp panel from About and removed its launcher and bundled tools from the Windows download.
