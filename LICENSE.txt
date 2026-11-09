@@ -4,8 +4,8 @@ XDesk is an independent distribution based on xemu and QEMU, with dashboard code
 
 The Windows release includes XDesk-source.zip with the corresponding modified source and build instructions. See DASHBOARD.md and licenses/xbased.NOTICE.txt in that archive for attribution, and licenses/Play.OFL.txt for the bundled Play font.
 
-For XDesk 1.0.13, the corresponding source is available in the Windows ZIP and as XDesk-v1.0.13-source.zip on GitHub.
-https://github.com/gohanthe5th/xdesk/releases/tag/v1.0.13
+For XDesk 1.0.14, the corresponding source is available in the Windows ZIP and as XDesk-v1.0.14-source.zip on GitHub.
+https://github.com/gohanthe5th/xdesk/releases/tag/v1.0.14
 
 Additional components retain the notices shipped alongside them in the Windows ZIP.
 
@@ -5710,7 +5710,7 @@ Project License:
  |   - anstyle-parse 1.0.0 (https://github.com/rust-cli/anstyle.git)
  |   - anstyle-query 1.1.5 (https://github.com/rust-cli/anstyle.git)
  |   - anstyle-wincon 3.0.11 (https://github.com/rust-cli/anstyle.git)
- |   - anstyle 1.0.13 (https://github.com/rust-cli/anstyle.git)
+ |   - anstyle 1.0.14 (https://github.com/rust-cli/anstyle.git)
  |   - clap 4.6.0 (https://github.com/clap-rs/clap)
  |   - clap_builder 4.6.0 (https://github.com/clap-rs/clap)
  |   - clap_derive 4.6.0 (https://github.com/clap-rs/clap)
