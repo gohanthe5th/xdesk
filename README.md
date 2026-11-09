@@ -1,44 +1,23 @@
 # XDesk
 
-XDesk is an independent Windows app for original Xbox emulation. It combines the [xemu](https://github.com/xemu-project/xemu) emulator with a console dashboard adapted from [xbased](https://github.com/crazyriddler/xbased).
+XDesk is a portable original Xbox emulator for Windows x64, based on [xbased 1.0.90](https://github.com/crazyriddler/xbased/tree/v1.0.90).
 
-[Download XDesk 1.0.15 for Windows x64](https://github.com/gohanthe5th/xdesk/releases/tag/v1.0.15)
+[Download XDesk v2.0.0](https://github.com/gohanthe5th/xdesk/releases/tag/v2.0.0)
 
 ## Getting started
 
-1. Extract the Windows ZIP and run `XDesk.exe`.
-2. Open **Settings → System / BIOS / storage** to configure your Xbox firmware and virtual hard disk. Supply your own firmware and game images.
-3. Open **Games** to add your game images. Press **F1** to return to the dashboard or **F2** to open the quick menu.
+1. Extract the entire Windows ZIP into a new folder and run `XDesk.exe`.
+2. Open **Games** to add your own disc images or game folders.
+3. Open a game’s **Mods & patches** screen for available patches, frame rate options, and cheats. See `MODS.md` in the download for file formats and folder locations.
 
-## Game covers
+## Settings
 
-XDesk matches cover art using the disc title, region, and filename. XDesk saves downloaded covers in `covers` inside its settings folder. If a game has no artwork, open its details and select **Choose cover image** below **Play**. XDesk copies the image into `covers/custom`, so the original can be moved afterward.
+- **Interface** has the dashboard wallpaper picker, clock visibility, and 12/24-hour time.
+- **Controls → Triggers** has independent left and right software response and DualSense adaptive motor effects. Games can override these settings.
+- **Memory** imports compatible in-game saves from a legacy XDesk/xemu TOML and HDD image.
 
-XDesk includes the redesigned game grid and game details, the built-in cartoon Xbox background, and the DualSense trigger and diagnostic controls.
+The portable build keeps settings and saves beside the executable. Install v2.0.0 manually from the full ZIP. Legacy snapshots and settings belong to the previous build, which is available in [v1.0.15](https://github.com/gohanthe5th/xdesk/releases/tag/v1.0.15).
 
-## Display settings
+## Source and license
 
-- Under **Settings → Display**, select **Vulkan** to choose a graphics card or leave it on **Automatic**. Restart XDesk to apply the choice. With OpenGL, use the Windows graphics settings shortcut.
-- Under **Settings → Display → Interface**, turn the dashboard clock on or off and choose 12-hour (AM/PM) or 24-hour time.
-
-## Library and backup
-
-- Add games to **Favorites** or named collections from the game details screen. **Continue playing** opens the last game you launched from the library.
-- Use **Search covers** in game details to preview and apply another edition’s cover.
-- Use **Settings → General → Backup and restore** to save your library, artwork stored in XDesk, controller settings, and display preferences. Restart XDesk to apply a queued restore. Keep your game images separately.
-- The first-run wizard guides you through firmware, virtual storage, and the games folder. Reopen it from **Settings → General → Open setup wizard**.
-
-## Picture and mods
-
-- Open **Settings → Picture** for global FXAA and CRT presets. Open a game's **Picture** panel to override aspect ratio, filtering, FXAA and CRT.
-- Place IPS files for a matching disc revision in `mods/<TITLE ID>.<VERSION>/` or `mods/<TITLE ID>/` in the XDesk settings folder. Open **Mods & patches** to build a separate patched ISO. Place an OgXHD database at `mods/widescreen.dat` to enable matching widescreen patterns.
-
-## Updates
-
-Open **Settings → About XDesk → Check for updates** to check the latest stable GitHub release. If a newer build is available, **Download Windows update** opens the ZIP in your browser. To check automatically at startup, use **Settings → Display → Interface**. Choose **Install update** to verify and replace the Windows executable, then reopen XDesk. The previous executable is saved as `XDesk-previous.exe`.
-
-See [CHANGELOG.md](CHANGELOG.md) for release history.
-
-## Source and licenses
-
-The release includes `XDesk-source.zip` with the corresponding source and build instructions. See [LICENSE.txt](LICENSE.txt) for copyright notices and license texts. Cover downloads use the [Libretro Xbox cover catalog](https://github.com/libretro-thumbnails/Microsoft_-_Xbox).
+The release includes the corresponding source, pinned build dependencies, and build instructions. XDesk is distributed under GPL-3.0-or-later. Third-party components keep their notices. See [LICENSE.txt](LICENSE.txt) and the licenses in the release ZIP.
