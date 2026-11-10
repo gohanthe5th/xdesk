@@ -1,5 +1,10 @@
 # Changelog
 
+## v2.0.3
+
+- Added WMA soundtrack import to the shared Xbox music library through Memory.
+- Added MP3 conversion to Xbox-compatible WMA using FFmpeg on PATH.
+
 ## v2.0.2
 
 - Added cover search by title, region, and edition with an artwork preview and persistent manual cover selection.
