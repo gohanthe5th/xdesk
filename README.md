@@ -4,7 +4,7 @@
 
 XDesk is a portable original Xbox emulator for Windows x64, based on [xbased 1.0.90](https://github.com/crazyriddler/xbased/tree/v1.0.90).
 
-[Download XDesk v2.0.2](https://github.com/gohanthe5th/xdesk/releases/tag/v2.0.2)
+[Download XDesk v2.0.3](https://github.com/gohanthe5th/xdesk/releases/tag/v2.0.3)
 
 ## Getting started
 
@@ -16,13 +16,17 @@ To correct an automatic match, open a game’s details, choose **Search covers**
 
 See [Changes to xbased](XBASED-CHANGES.md) for the full list of XDesk additions.
 
+## Custom soundtracks
+
+Open **Memory → Add soundtrack music** and choose a WMA or MP3. MP3 conversion requires FFmpeg on PATH. In compatible games, select **XDesk Music** from the soundtrack menu.
+
 ## Settings
 
 - **Interface** has the dashboard wallpaper picker, clock visibility, and 12/24-hour time.
 - **Controls → Triggers** has independent left and right software response and DualSense adaptive motor effects. Games can override these settings.
 - **Memory** imports compatible in-game saves from a legacy XDesk/xemu TOML and HDD image.
 
-The portable build keeps settings and saves beside the executable. Install v2.0.2 manually from the full ZIP. Legacy snapshots and settings belong to the previous build, which is available in [v1.0.15](https://github.com/gohanthe5th/xdesk/releases/tag/v1.0.15).
+The portable build keeps settings and saves beside the executable. Install v2.0.3 manually from the full ZIP. Legacy snapshots and settings belong to the previous build, which is available in [v1.0.15](https://github.com/gohanthe5th/xdesk/releases/tag/v1.0.15).
 
 ## Source and license
 
