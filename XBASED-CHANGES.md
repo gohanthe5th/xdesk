@@ -1,6 +1,6 @@
-# XDesk changes to xbased 1.0.90
+# XDesk changes to xbased
 
-The XDesk 2.x line starts from xbased 1.0.90 at commit `d3abca5c2996744d167b20dc419947041272533c`. The list below covers changes in the Windows fork through v2.0.3.
+The XDesk 2.x line starts from xbased 1.0.90 at commit `d3abca5c2996744d167b20dc419947041272533c`. The list below covers changes in the Windows fork through v2.0.4. The current base is xbased 1.0.104.
 
 ## Changes made in XDesk
 
@@ -16,6 +16,9 @@ The XDesk 2.x line starts from xbased 1.0.90 at commit `d3abca5c2996744d167b20dc
 | Settings and logs | Uses `xdesk.ini` and `xdesk.log`. If the new settings file is absent, XDesk migrates an existing `xbased.ini` in the portable folder. |
 | Distribution | Disabled xbased's automatic updater. XDesk releases ship as a portable ZIP with corresponding source and SHA-256 checksums. |
 | Custom soundtracks | Added WMA import and MP3 conversion via FFmpeg into the Xbox soundtrack library. |
+| 3D covers | Ported generated cases and custom PNG artwork from xbased PR #268. |
+| Insignia | Ported the status, setup and Play online screen from xbased PR #267, with a refreshed game list and DNS response verification. |
+| Soundtrack management | Lists track durations and supports removing tracks. MP3 import finds a local FFmpeg executable. |
 
 ## Inherited from xbased
 

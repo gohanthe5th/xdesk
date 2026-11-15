@@ -1,5 +1,12 @@
 # Changelog
 
+## v2.0.4
+
+- Updated the Windows emulator base to xbased 1.0.104 with graphics accuracy fixes and support for extracted game folders.
+- Added 3D cases, custom PNG box art, and a setting to switch back to flat covers.
+- Added soundtrack management with track durations and removal. MP3 import can use ffmpeg.exe beside XDesk.exe.
+- Added an Insignia screen with a DNS status check, setup links, and Play online for compatible games in your library.
+
 ## v2.0.3
 
 - Added WMA soundtrack import to the shared Xbox music library through Memory.

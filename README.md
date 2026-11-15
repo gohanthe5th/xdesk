@@ -2,9 +2,9 @@
 
 ![Pixel-art XDesk logo](https://github.com/gohanthe5th/xdesk/releases/download/v2.0.1/XDesk-v2.0.1-Menu-Art.png)
 
-XDesk is a portable original Xbox emulator for Windows x64, based on [xbased 1.0.90](https://github.com/crazyriddler/xbased/tree/v1.0.90).
+XDesk is a portable original Xbox emulator for Windows x64, based on [xbased 1.0.104](https://github.com/crazyriddler/xbased/tree/v1.0.104).
 
-[Download XDesk v2.0.3](https://github.com/gohanthe5th/xdesk/releases/tag/v2.0.3)
+[Download XDesk v2.0.4](https://github.com/gohanthe5th/xdesk/releases/tag/v2.0.4)
 
 ## Getting started
 
@@ -18,7 +18,13 @@ See [Changes to xbased](XBASED-CHANGES.md) for the full list of XDesk additions.
 
 ## Custom soundtracks
 
-Open **Memory → Add soundtrack music** and choose a WMA or MP3. MP3 conversion requires FFmpeg on PATH. In compatible games, select **XDesk Music** from the soundtrack menu.
+Open **Memory → Manage soundtrack music** to add or remove tracks. For MP3 import, get a [Windows FFmpeg build](https://ffmpeg.org/download.html#build-windows) and place its `ffmpeg.exe` beside `XDesk.exe`, or use an existing FFmpeg installation on PATH. In compatible games, select **XDesk Music** from the soundtrack menu.
+
+## Insignia and 3D covers
+
+Open **Insignia** from Home and select the Insignia network to run the DNS test, follow the setup steps and launch supported games with **Play online**.
+
+**Settings → Interface → 3D game cases** switches between 3D and flat covers. Place custom artwork at `covers/<game-key>-3d.png` and restart XDesk.
 
 ## Settings
 
@@ -26,7 +32,7 @@ Open **Memory → Add soundtrack music** and choose a WMA or MP3. MP3 conversion
 - **Controls → Triggers** has independent left and right software response and DualSense adaptive motor effects. Games can override these settings.
 - **Memory** imports compatible in-game saves from a legacy XDesk/xemu TOML and HDD image.
 
-The portable build keeps settings and saves beside the executable. Install v2.0.3 manually from the full ZIP. Legacy snapshots and settings belong to the previous build, which is available in [v1.0.15](https://github.com/gohanthe5th/xdesk/releases/tag/v1.0.15).
+The portable build keeps settings and saves beside the executable. Install v2.0.4 manually from the full ZIP. Legacy snapshots and settings belong to the previous build, which is available in [v1.0.15](https://github.com/gohanthe5th/xdesk/releases/tag/v1.0.15).
 
 ## Source and license
 
