@@ -1,11 +1,23 @@
 # Changelog
 
+## v2.1.0
+
+- Updated the emulator base from xbased 1.0.104 to xbased 1.2.12 and retained XDesk's dashboard and custom features.
+- Added 1×, 2×, and 4× downsampling for high internal resolutions.
+- Improved frame pacing and frame-rate limits, including when the GPU is busy.
+- Fixed graphics and language issues in Fable: The Lost Chapters, Max Payne, and Rayman 3.
+- Save states now load across .chd and .iso images of the same disc dump; rejected state loads include a reason in the log.
+- Included upstream screenshot, save-state, controller, and audio improvements from xbased 1.2.12.
+- Rebranded the startup and manual updater to XDesk and the XDesk GitHub releases.
+- Removed Insignia-specific screens, setup steps, and prompts; general emulator networking options remain.
+- Kept XDesk cover search, soundtrack management, bundled FFmpeg, DualSense effects, custom art, and 3D cases.
+
 ## v2.0.4
 
 - Updated the Windows emulator base to xbased 1.0.104 with graphics accuracy fixes and support for extracted game folders.
 - Added 3D cases, custom PNG box art, and a setting to switch back to flat covers.
 - Added soundtrack management with track durations and removal. MP3 import can use ffmpeg.exe beside XDesk.exe.
-- Added an Insignia screen with a DNS status check, setup links, and Play online for compatible games in your library.
+- Added an Insignia screen with a DNS status check, setup links, and Play online for compatible games in your library; this screen was removed in v2.1.0.
 
 ## v2.0.3
 
@@ -113,3 +125,4 @@
 ## v1.0.0
 
 - Initial Windows release with automatic cover downloads, a dashboard accessible by F1 or an on-screen button, and separate XDesk settings.
+
