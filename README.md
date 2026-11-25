@@ -2,7 +2,7 @@
 
 ![Pixel-art XDesk logo](https://github.com/gohanthe5th/xdesk/releases/download/v2.0.1/XDesk-v2.0.1-Menu-Art.png)
 
-XDesk is a portable original Xbox emulator for Windows x64, based on [xbased 1.2.12](https://github.com/crazyriddler/xbased/releases/tag/v1.2.12). It keeps XDesk's console-style dashboard and custom controller, artwork, and soundtrack features.
+XDesk is a portable Xbox game library and original Xbox emulator for Windows x64, based on [xbased 1.2.12](https://github.com/crazyriddler/xbased/releases/tag/v1.2.12). It keeps XDesk's console-style dashboard and custom controller, artwork, and soundtrack features.
 
 [Download XDesk v2.1.0](https://github.com/gohanthe5th/xdesk/releases/tag/v2.1.0)
 
@@ -23,6 +23,12 @@ The portable build keeps settings, saves, snapshots, covers, and other data besi
 - Automatic cover downloads plus **Search covers** and preview to correct a mismatched edition.
 - Custom soundtrack management. Add WMA or MP3 tracks, view durations, and remove tracks; MP3 conversion uses the included `ffmpeg.exe`.
 - Automatic updates from XDesk's GitHub releases, with a setting to turn startup checks off or on.
+
+## Xbox 360 and Series X|S games
+
+The library can also launch other Xbox generations through separate emulator programs. In **Settings → Interface**, choose the Xenia executable and add Xbox 360 game files. For Series X|S, choose the XCL executable and add a game folder that XCL can run. XDesk stores these entries in `external_games.txt` beside its settings; select an entry in Interface and press **X** to remove it.
+
+These are external backends, not new emulation cores in XDesk. Xenia is experimental and game support varies. XCL currently runs supported, unpacked Series game folders on compatible Windows 10/11 PCs; it does not decrypt or unpack game packages. See the [Xenia Quickstart](https://github.com/xenia-project/xenia/wiki/Quickstart) and [XCL requirements and game status](https://github.com/xcl-dev/xcl#building-and-usage) before adding games.
 
 ## Custom soundtracks
 
