@@ -16,6 +16,7 @@ XDesk 2.x is based on xbased 1.2.12 at commit `577f3b8841e166177c613356050f94980
 | 3D game cases | Added generated cases and support for custom PNG case art, adapted from xbased PR #268. |
 | Updates | Rebranded the startup and manual update checker to use XDesk's GitHub releases and XDesk package names. |
 | Networking | Removed Insignia-specific screens, prompts, and setup flow while retaining the emulator's general networking options. |
+| Multi-generation library | Added persistent Xbox 360 and Series X|S entries with separate Xenia and XCL launch routes; the built-in original Xbox core remains the default for XBE games. |
 | Settings and logs | Uses `xdesk.ini` and `xdesk.log`; if `xdesk.ini` is absent, an existing portable `xbased.ini` can be migrated. |
 
 ## Emulator changes retained from xbased 1.2.12
