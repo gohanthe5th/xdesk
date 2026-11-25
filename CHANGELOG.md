@@ -11,6 +11,8 @@
 - Rebranded the startup and manual updater to XDesk and the XDesk GitHub releases.
 - Removed Insignia-specific screens, setup steps, and prompts; general emulator networking options remain.
 - Kept XDesk cover search, soundtrack management, bundled FFmpeg, DualSense effects, custom art, and 3D cases.
+- Added an optional multi-generation library: launch Xbox 360 titles through a configured Xenia build and supported, unpacked Series X|S folders through XCL. The original Xbox emulator remains built in; these newer generations use separately installed backends and have their own compatibility requirements.
+- Added persistent external-game entries and per-entry generation labels, with launch routing and relevant game-detail options.
 
 ## v2.0.4
 
